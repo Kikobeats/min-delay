@@ -26,9 +26,9 @@ const delay = minDelay(1000)
 const fn = get.concat.bind(get, 'https://kikobeats.com', callback)
 
 function callback (err, res, data) {
-  // If the request take more than 1000 ms, then the callback is returned
+  // If the request take more than 1000ms, then the callback is returned
   // otherwise we wait the time until 1000ms
-  // For example, if the request take 100 ms, we wait 900ms until
+  // For example, if the request take 100ms, we wait 900ms until
   // return the callback.
   if (err) throw err
   console.log(data)
