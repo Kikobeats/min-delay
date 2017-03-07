@@ -2,7 +2,7 @@
   "name": "min-delay",
   "description": "Wait a minimum quantity of time between consecutive callbacks.",
   "homepage": "https://github.com/Kikobeats/min-delay",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -17,11 +17,11 @@
     "url": "https://github.com/Kikobeats/min-delay/issues"
   },
   "keywords": [
-    "constant",
-    "minimum",
-    "delay",
     "async",
-    "callback"
+    "callback",
+    "constant",
+    "delay",
+    "minimum"
   ],
   "dependencies": {
     "lodash.delay": "~4.1.1"
