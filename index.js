@@ -1,6 +1,6 @@
 'use strict'
 
-const delay = require('lodash.delay')
+const _delay = require('lodash.delay')
 
 function hasPassedEnoughTime (currentDelay, delay) {
   return currentDelay >= delay
@@ -20,7 +20,7 @@ function minDelay (delay) {
     if (hasPassedEnoughTime(currentDelay, delay)) return resolveDelay(fn)
 
     const remainDelay = delay - currentDelay
-    return delay(resolveDelay, remainDelay, fn)
+    return _delay(resolveDelay, remainDelay, fn)
   }
 
   return constantDelay
