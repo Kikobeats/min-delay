@@ -23,9 +23,6 @@
     "delay",
     "minimum"
   ],
-  "dependencies": {
-    "lodash.delay": "~4.1.1"
-  },
   "devDependencies": {
     "coveralls": "latest",
     "git-dirty": "latest",

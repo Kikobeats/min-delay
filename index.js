@@ -1,7 +1,5 @@
 'use strict'
 
-const _delay = require('lodash.delay')
-
 function hasPassedEnoughTime (currentDelay, delay) {
   return currentDelay >= delay
 }
@@ -20,7 +18,7 @@ function minDelay (delay) {
     if (hasPassedEnoughTime(currentDelay, delay)) return resolveDelay(fn)
 
     const remainDelay = delay - currentDelay
-    return _delay(resolveDelay, remainDelay, fn)
+    return setTimeout(resolveDelay, remainDelay, fn)
   }
 
   return constantDelay
