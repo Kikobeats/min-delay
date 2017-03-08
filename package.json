@@ -2,7 +2,7 @@
   "name": "min-delay",
   "description": "Wait a minimum quantity of time between consecutive callbacks.",
   "homepage": "https://github.com/Kikobeats/min-delay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
