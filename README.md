@@ -1,5 +1,7 @@
 # min-delay
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/min-delay.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/min-delay.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/min-delay/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/min-delay)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/min-delay.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/min-delay)
